@@ -1,0 +1,24 @@
+.topBar {
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+}
+.topWrapper {
+  height: 100%;
+  padding: 0px, 20px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topLeft {
+  padding-left: 20px;
+}
+.topRight {
+  padding-right: 20px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+}
