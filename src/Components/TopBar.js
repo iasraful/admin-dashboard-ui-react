@@ -1,5 +1,5 @@
 import "./topBar.css";
-import { NotificationsNone } from "@material-ui/icons";
+import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 export default function TopBar() {
   return (
     <div className="topBar">
@@ -10,7 +10,20 @@ export default function TopBar() {
         <div className="topRight">
           <div className="notiIcon">
             <NotificationsNone />
+            <span className="iconBadge">2</span>
           </div>
+          <div className="notiIcon">
+            <Language />
+            <span className="iconBadge">2</span>
+          </div>
+          <div className="notiIcon">
+            <Settings />
+          </div>
+          <img
+            src="https://assets.materialup.com/uploads/b78ca002-cd6c-4f84-befb-c09dd9261025/preview.png"
+            alt=""
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>
