@@ -1,0 +1,26 @@
+.fratures {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.featureItems {
+  padding: 30px;
+  margin: 0 20px;
+  flex: 1;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 8px 16px -6px #000000;
+  box-shadow: 5px 8px 16px -6px #000000;
+}
+.featureTitel {
+  font-size: 20px;
+  font-weight: normal;
+}
+.featureMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+.featureMoney {
+  margin-right: 3px;
+}
