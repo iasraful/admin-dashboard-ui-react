@@ -3,7 +3,6 @@ import {
   BlurLinear,
   Timeline,
   TrendingUp,
-  AllInclusive,
   AttachMoney,
   AddToQueue,
   ChangeHistory,
@@ -11,7 +10,6 @@ import {
   AlternateEmail,
   Feedback,
   Sms,
-  Assessment,
 } from "@material-ui/icons";
 
 export default function Sidebar() {
@@ -86,28 +84,6 @@ export default function Sidebar() {
             <li className="sidebarItems">
               <Sms className="sidebarIcon" />
               Messages
-            </li>
-          </ul>
-        </div>
-
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle"> Staff</h3>
-          <ul className="sidebarList">
-            <li className="sidebarItems">
-              <BlurLinear className="sidebarIcon" />
-              Manage
-            </li>
-          </ul>
-          <ul className="sidebarList">
-            <li className="sidebarItems">
-              <AllInclusive className="sidebarIcon" />
-              Analytics
-            </li>
-          </ul>
-          <ul className="sidebarList">
-            <li className="sidebarItems">
-              <Assessment className="sidebarIcon" />
-              Reports
             </li>
           </ul>
         </div>

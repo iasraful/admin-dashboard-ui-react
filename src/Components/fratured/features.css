@@ -24,3 +24,15 @@
 .featureMoney {
   margin-right: 3px;
 }
+
+.iconArrow {
+  font-size: 14px;
+  color: green;
+}
+.iconArrow.negtive {
+  color: red;
+}
+.featureSub {
+  font-size: 50;
+  color: gray;
+}
